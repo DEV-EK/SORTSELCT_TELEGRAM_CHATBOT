@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.coolegrams.coolegrams.mapper.CallCoupangApiMapper">
+	<insert id="insertCoupangItemInfo" parameterType="com.coolegrams.coolegrams.dto.CoupangItemDto"> 
+        INSERT INTO
+        	coupang_item_info
+        (
+	       	PRODUCTIMAGE,
+	        PRODUCTID,
+	        ITEM_RANK,
+	        PRODUCT_URL,
+	        KEYWORD,
+	        CATERGORYNAME,
+	        PRODUCTNAME,
+	        PRODUCTPRICE,
+	        IS_ROCKET,
+	        REG_DATE
+	    )
+        VALUES 
+        <foreach collection='array' index = 'index' item = 'item' separator=','>
+        (
+	      	#{item.productImage},
+	       	#{item.productId},
+	       	#{item.rank},
+	       	#{item.productUrl},
+	       	#{item.keyword},
+	       	#{item.categoryName},
+	       	#{item.productName},
+        	#{item.productPrice},
+        	#{item.isRocket},
+        	DEFAULT
+       	)
+        </foreach>
+    </insert>
+</mapper>

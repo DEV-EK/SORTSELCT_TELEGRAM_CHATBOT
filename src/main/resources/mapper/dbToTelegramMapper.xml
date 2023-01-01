@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.coolegrams.coolegrams.mapper.ItemSelectApiMapper">
+    <select id="getSearchResult" parameterType="String" resultType ="com.coolegrams.coolegrams.dto.CoupangItemDto">
+    	SELECT 
+    		*
+    	FROM
+    		COOLEGRAMS.COUPANG_ITEM_INFO
+    	WHERE
+    		KEYWORD = #{keyword}
+    	ORDER BY
+    		REG_DATE
+    	DESC
+    	limit 10;
+    </select>
+    
+    <select id="getSearchResultCount" parameterType="String" resultType ="int">
+    	SELECT 
+    		COUNT(*)
+    	FROM
+    		COOLEGRAMS.COUPANG_ITEM_INFO
+    	WHERE
+    		KEYWORD = #{keyword}
+    </select>
+	
+	<select id ="getScheduledList" resultType="String">
+		SELECT
+			PRODUCT_ID
+		FROM
+			COOLEGRAMS.UPDATE_TARGET_ITEM_HIST
+		where 
+			PRODUCT_ID IS NOT NULL
+	</select>    
+	
+	<update id = "changeUseYn" parameterType="String">
+		UPDATE
+			USER_INFO_HIST
+		SET
+			USE_YN='N'
+		WHERE
+			SUBSCRIBE_PRODUCTNAME = #{productName}
+	</update>
+	
+	
+	<insert id="insertCrawlingResponse" parameterType="com.coolegrams.coolegrams.dto.RefreshItemInfoDto">
+		INSERT INTO
+		ITEM_REFRESH_INFO
+		(
+			PRODUCT_NAME,
+			PRODUCT_ID,
+			COUPANG_LINK,
+			CURRNT_PRICE,
+			IF_YN
+		)
+		VALUES
+		(
+			#{productName},
+			#{productId},
+			#{coupangLink},
+			#{currentPrice},
+			'N'
+		) ON DUPLICATE KEY UPDATE
+		PRODUCT_NAME=#{productName},
+		CURRNT_PRICE=#{currentPrice} 
+	</insert>
+	
+	<select id="getTodayLink" resultType="String">
+		SELECT 
+			COUPANG_LINK
+		FROM
+			USER_INFO_HIST
+		ORDER BY RAND() LIMIT 1
+	</select>
+</mapper>

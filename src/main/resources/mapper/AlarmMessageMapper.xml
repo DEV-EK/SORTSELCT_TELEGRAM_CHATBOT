@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.coolegrams.coolegrams.mapper.AlarmMessagingMapper">
+	<select id = "getBatchTargetPrice" resultType="int">
+		SELECT
+			CURRNT_PRICE
+		FROM
+			ITEM_REFRESH_INFO
+		WHERE
+			PRODUCT_ID = #{productId} AND
+			PRODUCT_NAME = #{productName}
+
+	</select>
+	
+	<select id = "getBatchPossible" parameterType="String" resultType="int">
+		SELECT
+			COUNT(*)
+		FROM
+			ITEM_REFRESH_INFO
+		WHERE
+			PRODUCT_ID = #{productId}
+	</select>
+	
+	<select id = "getInputTimePrice" parameterType ="int" resultType="int">
+		SELECT
+			INPUTTIME_PRICE
+		FROM
+			USER_INFO_HIST
+		WHERE
+			USER_INFO_SEQ = #{userSeq}
+	</select>
+	<select id = "getSubscribeUser" parameterType="String" resultType="com.coolegrams.coolegrams.dto.UserinfoForMessageDto">
+		SELECT
+			USER_INFO_SEQ as userSeq,
+			CHAT_ID as chatId,
+			SUBSCRIBE_PRODUCTID as productId,
+			SUBSCRIBE_PRODUCTNAME as productName,
+			GOAL_PRICE as goalPrice,
+			COUPANG_LINK as coupangUrl
+		FROM
+			user_info_hist
+		WHERE
+			USE_YN ='Y' AND
+			IF_YN = 'N'
+		ORDER BY
+			SUBSCRIBE_PRODUCTID
+	</select>
+	
+	<update id = "updateIFYN" parameterType="int">
+		UPDATE
+			user_info_hist
+		SET
+			IF_YN = 'Y'
+		WHERE
+			USER_INFO_SEQ = #{dtoSeq}
+	</update>
+</mapper>

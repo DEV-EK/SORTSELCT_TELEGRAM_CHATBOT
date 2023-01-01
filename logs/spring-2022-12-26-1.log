@@ -1,0 +1,1165 @@
+00:05:37.007+0900 [main] INFO  com.coolegrams.coolegrams.CoolegramsApplication - Starting CoolegramsApplication using Java 1.8.0_341 on DESKTOP-B0LGGGO with PID 13948 (C:\Users\a\Downloads\coolegrams\build\classes\java\main started by a in C:\Users\a\Downloads\coolegrams)
+00:05:37.034+0900 [main] INFO  com.coolegrams.coolegrams.CoolegramsApplication - No active profile set, falling back to 1 default profile: "default"
+00:05:39.170+0900 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+00:05:39.188+0900 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+00:05:39.189+0900 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+00:05:39.207+0900 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.69]
+00:05:39.585+0900 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+00:05:39.585+0900 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2483 ms
+00:05:39.875+0900 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+00:05:40.003+0900 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+00:05:40.041+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_job_instance' already exists
+00:05:40.044+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_job_execution' already exists
+00:05:40.045+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_job_execution_params' already exists
+00:05:40.046+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_step_execution' already exists
+00:05:40.046+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_step_execution_context' already exists
+00:05:40.047+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_job_execution_context' already exists
+00:05:40.048+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_step_execution_seq' already exists
+00:05:40.050+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_job_execution_seq' already exists
+00:05:40.051+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_job_seq' already exists
+00:05:43.250+0900 [main] INFO  org.springframework.batch.core.repository.support.JobRepositoryFactoryBean - No database type set, using meta data indicating: MYSQL
+00:05:43.283+0900 [main] INFO  org.springframework.batch.core.launch.support.SimpleJobLauncher - No TaskExecutor has been set, defaulting to synchronous executor.
+00:05:43.524+0900 [main] INFO  org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+00:05:43.547+0900 [main] INFO  org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+00:05:43.547+0900 [main] INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.3.2 created.
+00:05:43.549+0900 [main] INFO  org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+00:05:43.550+0900 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+00:05:43.550+0900 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+00:05:43.551+0900 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.3.2
+00:05:43.551+0900 [main] INFO  org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@19fd43da
+00:05:43.612+0900 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+00:05:43.649+0900 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+00:05:43.651+0900 [main] INFO  org.springframework.scheduling.quartz.SchedulerFactoryBean - Starting Quartz Scheduler now
+00:05:43.652+0900 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+00:05:43.669+0900 [main] INFO  com.coolegrams.coolegrams.CoolegramsApplication - Started CoolegramsApplication in 7.131 seconds (JVM running for 8.317)
+00:09:50.666+0900 [main] INFO  com.coolegrams.coolegrams.CoolegramsApplication - Starting CoolegramsApplication using Java 1.8.0_341 on DESKTOP-B0LGGGO with PID 17820 (C:\Users\a\Downloads\coolegrams\build\classes\java\main started by a in C:\Users\a\Downloads\coolegrams)
+00:09:50.677+0900 [main] INFO  com.coolegrams.coolegrams.CoolegramsApplication - No active profile set, falling back to 1 default profile: "default"
+00:09:52.474+0900 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+00:09:52.484+0900 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+00:09:52.485+0900 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+00:09:52.485+0900 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.69]
+00:09:52.759+0900 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+00:09:52.760+0900 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2021 ms
+00:09:52.933+0900 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+00:09:53.013+0900 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+00:09:53.037+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_job_instance' already exists
+00:09:53.039+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_job_execution' already exists
+00:09:53.039+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_job_execution_params' already exists
+00:09:53.040+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_step_execution' already exists
+00:09:53.040+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_step_execution_context' already exists
+00:09:53.041+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_job_execution_context' already exists
+00:09:53.041+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_step_execution_seq' already exists
+00:09:53.044+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_job_execution_seq' already exists
+00:09:53.045+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_job_seq' already exists
+00:09:56.544+0900 [main] INFO  org.springframework.batch.core.repository.support.JobRepositoryFactoryBean - No database type set, using meta data indicating: MYSQL
+00:09:56.564+0900 [main] INFO  org.springframework.batch.core.launch.support.SimpleJobLauncher - No TaskExecutor has been set, defaulting to synchronous executor.
+00:09:56.704+0900 [main] INFO  org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+00:09:56.717+0900 [main] INFO  org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+00:09:56.718+0900 [main] INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.3.2 created.
+00:09:56.718+0900 [main] INFO  org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+00:09:56.719+0900 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+00:09:56.719+0900 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+00:09:56.719+0900 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.3.2
+00:09:56.720+0900 [main] INFO  org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@5a7df831
+00:09:56.759+0900 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+00:09:56.800+0900 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+00:09:56.803+0900 [main] INFO  org.springframework.scheduling.quartz.SchedulerFactoryBean - Starting Quartz Scheduler now
+00:09:56.803+0900 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+00:09:56.826+0900 [main] INFO  com.coolegrams.coolegrams.CoolegramsApplication - Started CoolegramsApplication in 6.605 seconds (JVM running for 7.796)
+00:13:01.397+0900 [main] INFO  com.coolegrams.coolegrams.CoolegramsApplication - Starting CoolegramsApplication using Java 1.8.0_341 on DESKTOP-B0LGGGO with PID 944 (C:\Users\a\Downloads\coolegrams\build\classes\java\main started by a in C:\Users\a\Downloads\coolegrams)
+00:13:01.419+0900 [main] INFO  com.coolegrams.coolegrams.CoolegramsApplication - No active profile set, falling back to 1 default profile: "default"
+00:13:03.619+0900 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+00:13:03.639+0900 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+00:13:03.640+0900 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+00:13:03.641+0900 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.69]
+00:13:04.065+0900 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+00:13:04.065+0900 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2542 ms
+00:13:04.263+0900 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+00:13:04.355+0900 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+00:13:04.379+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_job_instance' already exists
+00:13:04.381+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_job_execution' already exists
+00:13:04.382+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_job_execution_params' already exists
+00:13:04.382+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_step_execution' already exists
+00:13:04.383+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_step_execution_context' already exists
+00:13:04.383+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_job_execution_context' already exists
+00:13:04.384+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_step_execution_seq' already exists
+00:13:04.385+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_job_execution_seq' already exists
+00:13:04.386+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_job_seq' already exists
+00:13:07.105+0900 [main] INFO  org.springframework.batch.core.repository.support.JobRepositoryFactoryBean - No database type set, using meta data indicating: MYSQL
+00:13:07.123+0900 [main] INFO  org.springframework.batch.core.launch.support.SimpleJobLauncher - No TaskExecutor has been set, defaulting to synchronous executor.
+00:13:07.265+0900 [main] INFO  org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+00:13:07.278+0900 [main] INFO  org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+00:13:07.278+0900 [main] INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.3.2 created.
+00:13:07.279+0900 [main] INFO  org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+00:13:07.280+0900 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+00:13:07.280+0900 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+00:13:07.280+0900 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.3.2
+00:13:07.281+0900 [main] INFO  org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@5974b233
+00:13:07.319+0900 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+00:13:07.358+0900 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+00:13:07.360+0900 [main] INFO  org.springframework.scheduling.quartz.SchedulerFactoryBean - Starting Quartz Scheduler now
+00:13:07.360+0900 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+00:13:07.374+0900 [main] INFO  com.coolegrams.coolegrams.CoolegramsApplication - Started CoolegramsApplication in 6.607 seconds (JVM running for 8.121)
+00:16:41.876+0900 [main] INFO  com.coolegrams.coolegrams.CoolegramsApplication - Starting CoolegramsApplication using Java 1.8.0_341 on DESKTOP-B0LGGGO with PID 13092 (C:\Users\a\Downloads\coolegrams\build\classes\java\main started by a in C:\Users\a\Downloads\coolegrams)
+00:16:41.888+0900 [main] INFO  com.coolegrams.coolegrams.CoolegramsApplication - No active profile set, falling back to 1 default profile: "default"
+00:16:44.260+0900 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+00:16:44.278+0900 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+00:16:44.279+0900 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+00:16:44.280+0900 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.69]
+00:16:44.648+0900 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+00:16:44.649+0900 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2690 ms
+00:16:44.921+0900 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+00:16:45.051+0900 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+00:16:45.085+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_job_instance' already exists
+00:16:45.088+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_job_execution' already exists
+00:16:45.090+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_job_execution_params' already exists
+00:16:45.090+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_step_execution' already exists
+00:16:45.092+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_step_execution_context' already exists
+00:16:45.092+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_job_execution_context' already exists
+00:16:45.092+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_step_execution_seq' already exists
+00:16:45.094+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_job_execution_seq' already exists
+00:16:45.095+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_job_seq' already exists
+00:16:48.447+0900 [main] INFO  org.springframework.batch.core.repository.support.JobRepositoryFactoryBean - No database type set, using meta data indicating: MYSQL
+00:16:48.480+0900 [main] INFO  org.springframework.batch.core.launch.support.SimpleJobLauncher - No TaskExecutor has been set, defaulting to synchronous executor.
+00:16:48.729+0900 [main] INFO  org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+00:16:48.752+0900 [main] INFO  org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+00:16:48.753+0900 [main] INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.3.2 created.
+00:16:48.755+0900 [main] INFO  org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+00:16:48.756+0900 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+00:16:48.757+0900 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+00:16:48.757+0900 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.3.2
+00:16:48.757+0900 [main] INFO  org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@41f4039e
+00:16:48.815+0900 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+00:16:48.855+0900 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+00:16:48.857+0900 [main] INFO  org.springframework.scheduling.quartz.SchedulerFactoryBean - Starting Quartz Scheduler now
+00:16:48.858+0900 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+00:16:48.911+0900 [main] INFO  com.coolegrams.coolegrams.CoolegramsApplication - Started CoolegramsApplication in 7.553 seconds (JVM running for 8.956)
+00:21:48.520+0900 [main] INFO  com.coolegrams.coolegrams.CoolegramsApplication - Starting CoolegramsApplication using Java 1.8.0_341 on DESKTOP-B0LGGGO with PID 11128 (C:\Users\a\Downloads\coolegrams\build\classes\java\main started by a in C:\Users\a\Downloads\coolegrams)
+00:21:48.532+0900 [main] INFO  com.coolegrams.coolegrams.CoolegramsApplication - No active profile set, falling back to 1 default profile: "default"
+00:21:50.664+0900 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+00:21:50.676+0900 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+00:21:50.677+0900 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+00:21:50.677+0900 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.69]
+00:21:51.045+0900 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+00:21:51.045+0900 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2451 ms
+00:21:51.336+0900 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+00:21:51.461+0900 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+00:21:51.491+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_job_instance' already exists
+00:21:51.494+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_job_execution' already exists
+00:21:51.495+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_job_execution_params' already exists
+00:21:51.495+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_step_execution' already exists
+00:21:51.496+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_step_execution_context' already exists
+00:21:51.496+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_job_execution_context' already exists
+00:21:51.497+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_step_execution_seq' already exists
+00:21:51.499+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_job_execution_seq' already exists
+00:21:51.500+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_job_seq' already exists
+00:21:56.701+0900 [main] INFO  org.springframework.batch.core.repository.support.JobRepositoryFactoryBean - No database type set, using meta data indicating: MYSQL
+00:21:56.734+0900 [main] INFO  org.springframework.batch.core.launch.support.SimpleJobLauncher - No TaskExecutor has been set, defaulting to synchronous executor.
+00:21:56.976+0900 [main] INFO  org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+00:21:56.997+0900 [main] INFO  org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+00:21:56.997+0900 [main] INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.3.2 created.
+00:21:56.999+0900 [main] INFO  org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+00:21:57.000+0900 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+00:21:57.000+0900 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+00:21:57.001+0900 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.3.2
+00:21:57.001+0900 [main] INFO  org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@545b5ed0
+00:21:57.057+0900 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+00:21:57.122+0900 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+00:21:57.124+0900 [main] INFO  org.springframework.scheduling.quartz.SchedulerFactoryBean - Starting Quartz Scheduler now
+00:21:57.125+0900 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+00:21:57.149+0900 [main] INFO  com.coolegrams.coolegrams.CoolegramsApplication - Started CoolegramsApplication in 9.07 seconds (JVM running for 10.316)
+00:24:42.443+0900 [main] INFO  com.coolegrams.coolegrams.CoolegramsApplication - Starting CoolegramsApplication using Java 1.8.0_341 on DESKTOP-B0LGGGO with PID 8212 (C:\Users\a\Downloads\coolegrams\build\classes\java\main started by a in C:\Users\a\Downloads\coolegrams)
+00:24:42.457+0900 [main] INFO  com.coolegrams.coolegrams.CoolegramsApplication - No active profile set, falling back to 1 default profile: "default"
+00:24:44.804+0900 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+00:24:44.822+0900 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+00:24:44.823+0900 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+00:24:44.824+0900 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.69]
+00:24:45.208+0900 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+00:24:45.208+0900 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2677 ms
+00:24:45.524+0900 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+00:24:45.656+0900 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+00:24:45.693+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_job_instance' already exists
+00:24:45.696+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_job_execution' already exists
+00:24:45.697+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_job_execution_params' already exists
+00:24:45.698+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_step_execution' already exists
+00:24:45.699+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_step_execution_context' already exists
+00:24:45.699+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_job_execution_context' already exists
+00:24:45.700+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_step_execution_seq' already exists
+00:24:45.701+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_job_execution_seq' already exists
+00:24:45.702+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_job_seq' already exists
+00:24:49.078+0900 [main] INFO  org.springframework.batch.core.repository.support.JobRepositoryFactoryBean - No database type set, using meta data indicating: MYSQL
+00:24:49.113+0900 [main] INFO  org.springframework.batch.core.launch.support.SimpleJobLauncher - No TaskExecutor has been set, defaulting to synchronous executor.
+00:24:49.347+0900 [main] INFO  org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+00:24:49.371+0900 [main] INFO  org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+00:24:49.372+0900 [main] INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.3.2 created.
+00:24:49.373+0900 [main] INFO  org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+00:24:49.375+0900 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+00:24:49.375+0900 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+00:24:49.375+0900 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.3.2
+00:24:49.376+0900 [main] INFO  org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@5c134052
+00:24:49.437+0900 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+00:24:49.463+0900 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+00:24:49.465+0900 [main] INFO  org.springframework.scheduling.quartz.SchedulerFactoryBean - Starting Quartz Scheduler now
+00:24:49.466+0900 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+00:24:49.482+0900 [main] INFO  com.coolegrams.coolegrams.CoolegramsApplication - Started CoolegramsApplication in 7.509 seconds (JVM running for 8.778)
+00:27:21.004+0900 [main] INFO  com.coolegrams.coolegrams.CoolegramsApplication - Starting CoolegramsApplication using Java 1.8.0_341 on DESKTOP-B0LGGGO with PID 15124 (C:\Users\a\Downloads\coolegrams\build\classes\java\main started by a in C:\Users\a\Downloads\coolegrams)
+00:27:21.023+0900 [main] INFO  com.coolegrams.coolegrams.CoolegramsApplication - No active profile set, falling back to 1 default profile: "default"
+00:27:23.458+0900 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+00:27:23.474+0900 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+00:27:23.476+0900 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+00:27:23.476+0900 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.69]
+00:27:23.855+0900 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+00:27:23.855+0900 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2757 ms
+00:27:24.156+0900 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+00:27:24.277+0900 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+00:27:24.320+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_job_instance' already exists
+00:27:24.322+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_job_execution' already exists
+00:27:24.323+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_job_execution_params' already exists
+00:27:24.324+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_step_execution' already exists
+00:27:24.324+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_step_execution_context' already exists
+00:27:24.325+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_job_execution_context' already exists
+00:27:24.325+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_step_execution_seq' already exists
+00:27:24.327+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_job_execution_seq' already exists
+00:27:24.328+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_job_seq' already exists
+00:27:27.596+0900 [main] INFO  org.springframework.batch.core.repository.support.JobRepositoryFactoryBean - No database type set, using meta data indicating: MYSQL
+00:27:27.629+0900 [main] INFO  org.springframework.batch.core.launch.support.SimpleJobLauncher - No TaskExecutor has been set, defaulting to synchronous executor.
+00:27:27.921+0900 [main] INFO  org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+00:27:27.943+0900 [main] INFO  org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+00:27:27.943+0900 [main] INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.3.2 created.
+00:27:27.945+0900 [main] INFO  org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+00:27:27.947+0900 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+00:27:27.947+0900 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+00:27:27.948+0900 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.3.2
+00:27:27.948+0900 [main] INFO  org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@69de5bed
+00:27:28.018+0900 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+00:27:28.091+0900 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+00:27:28.095+0900 [main] INFO  org.springframework.scheduling.quartz.SchedulerFactoryBean - Starting Quartz Scheduler now
+00:27:28.095+0900 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+00:27:28.122+0900 [main] INFO  com.coolegrams.coolegrams.CoolegramsApplication - Started CoolegramsApplication in 7.664 seconds (JVM running for 9.092)
+00:29:37.740+0900 [main] INFO  com.coolegrams.coolegrams.CoolegramsApplication - Starting CoolegramsApplication using Java 1.8.0_341 on DESKTOP-B0LGGGO with PID 14860 (C:\Users\a\Downloads\coolegrams\build\classes\java\main started by a in C:\Users\a\Downloads\coolegrams)
+00:29:37.753+0900 [main] INFO  com.coolegrams.coolegrams.CoolegramsApplication - No active profile set, falling back to 1 default profile: "default"
+00:29:40.072+0900 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+00:29:40.089+0900 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+00:29:40.090+0900 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+00:29:40.091+0900 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.69]
+00:29:40.463+0900 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+00:29:40.464+0900 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2649 ms
+00:29:40.760+0900 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+00:29:40.881+0900 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+00:29:40.917+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_job_instance' already exists
+00:29:40.921+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_job_execution' already exists
+00:29:40.922+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_job_execution_params' already exists
+00:29:40.922+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_step_execution' already exists
+00:29:40.922+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_step_execution_context' already exists
+00:29:40.923+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_job_execution_context' already exists
+00:29:40.923+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_step_execution_seq' already exists
+00:29:40.925+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_job_execution_seq' already exists
+00:29:40.926+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_job_seq' already exists
+00:29:44.155+0900 [main] INFO  org.springframework.batch.core.repository.support.JobRepositoryFactoryBean - No database type set, using meta data indicating: MYSQL
+00:29:44.188+0900 [main] INFO  org.springframework.batch.core.launch.support.SimpleJobLauncher - No TaskExecutor has been set, defaulting to synchronous executor.
+00:29:44.426+0900 [main] INFO  org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+00:29:44.448+0900 [main] INFO  org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+00:29:44.449+0900 [main] INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.3.2 created.
+00:29:44.450+0900 [main] INFO  org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+00:29:44.452+0900 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+00:29:44.452+0900 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+00:29:44.452+0900 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.3.2
+00:29:44.453+0900 [main] INFO  org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@667dcaad
+00:29:44.531+0900 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+00:29:44.568+0900 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+00:29:44.571+0900 [main] INFO  org.springframework.scheduling.quartz.SchedulerFactoryBean - Starting Quartz Scheduler now
+00:29:44.571+0900 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+00:29:44.592+0900 [main] INFO  com.coolegrams.coolegrams.CoolegramsApplication - Started CoolegramsApplication in 7.294 seconds (JVM running for 8.499)
+00:30:54.893+0900 [main] INFO  com.coolegrams.coolegrams.CoolegramsApplication - Starting CoolegramsApplication using Java 1.8.0_341 on DESKTOP-B0LGGGO with PID 18372 (C:\Users\a\Downloads\coolegrams\build\classes\java\main started by a in C:\Users\a\Downloads\coolegrams)
+00:30:54.906+0900 [main] INFO  com.coolegrams.coolegrams.CoolegramsApplication - No active profile set, falling back to 1 default profile: "default"
+00:30:57.021+0900 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+00:30:57.038+0900 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+00:30:57.039+0900 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+00:30:57.040+0900 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.69]
+00:30:57.411+0900 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+00:30:57.412+0900 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2443 ms
+00:30:57.698+0900 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+00:30:57.817+0900 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+00:30:57.849+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_job_instance' already exists
+00:30:57.852+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_job_execution' already exists
+00:30:57.853+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_job_execution_params' already exists
+00:30:57.854+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_step_execution' already exists
+00:30:57.854+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_step_execution_context' already exists
+00:30:57.855+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_job_execution_context' already exists
+00:30:57.855+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_step_execution_seq' already exists
+00:30:57.857+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_job_execution_seq' already exists
+00:30:57.858+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_job_seq' already exists
+00:31:01.169+0900 [main] INFO  org.springframework.batch.core.repository.support.JobRepositoryFactoryBean - No database type set, using meta data indicating: MYSQL
+00:31:01.201+0900 [main] INFO  org.springframework.batch.core.launch.support.SimpleJobLauncher - No TaskExecutor has been set, defaulting to synchronous executor.
+00:31:01.438+0900 [main] INFO  org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+00:31:01.461+0900 [main] INFO  org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+00:31:01.462+0900 [main] INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.3.2 created.
+00:31:01.463+0900 [main] INFO  org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+00:31:01.465+0900 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+00:31:01.465+0900 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+00:31:01.465+0900 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.3.2
+00:31:01.465+0900 [main] INFO  org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@667dcaad
+00:31:01.528+0900 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+00:31:01.592+0900 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+00:31:01.596+0900 [main] INFO  org.springframework.scheduling.quartz.SchedulerFactoryBean - Starting Quartz Scheduler now
+00:31:01.597+0900 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+00:31:01.619+0900 [main] INFO  com.coolegrams.coolegrams.CoolegramsApplication - Started CoolegramsApplication in 7.17 seconds (JVM running for 8.377)
+00:38:56.609+0900 [main] INFO  com.coolegrams.coolegrams.CoolegramsApplication - Starting CoolegramsApplication using Java 1.8.0_341 on DESKTOP-B0LGGGO with PID 15072 (C:\Users\a\Downloads\coolegrams\build\classes\java\main started by a in C:\Users\a\Downloads\coolegrams)
+00:38:56.621+0900 [main] INFO  com.coolegrams.coolegrams.CoolegramsApplication - No active profile set, falling back to 1 default profile: "default"
+00:38:58.676+0900 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+00:38:58.692+0900 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+00:38:58.693+0900 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+00:38:58.694+0900 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.69]
+00:38:59.061+0900 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+00:38:59.062+0900 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2380 ms
+00:38:59.361+0900 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+00:38:59.480+0900 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+00:38:59.513+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_job_instance' already exists
+00:38:59.516+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_job_execution' already exists
+00:38:59.517+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_job_execution_params' already exists
+00:38:59.517+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_step_execution' already exists
+00:38:59.518+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_step_execution_context' already exists
+00:38:59.518+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_job_execution_context' already exists
+00:38:59.519+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_step_execution_seq' already exists
+00:38:59.521+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_job_execution_seq' already exists
+00:38:59.522+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_job_seq' already exists
+00:39:02.855+0900 [main] INFO  org.springframework.batch.core.repository.support.JobRepositoryFactoryBean - No database type set, using meta data indicating: MYSQL
+00:39:02.891+0900 [main] INFO  org.springframework.batch.core.launch.support.SimpleJobLauncher - No TaskExecutor has been set, defaulting to synchronous executor.
+00:39:03.131+0900 [main] INFO  org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+00:39:03.153+0900 [main] INFO  org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+00:39:03.153+0900 [main] INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.3.2 created.
+00:39:03.155+0900 [main] INFO  org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+00:39:03.156+0900 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+00:39:03.156+0900 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+00:39:03.157+0900 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.3.2
+00:39:03.157+0900 [main] INFO  org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@667dcaad
+00:39:03.215+0900 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+00:39:03.276+0900 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+00:39:03.279+0900 [main] INFO  org.springframework.scheduling.quartz.SchedulerFactoryBean - Starting Quartz Scheduler now
+00:39:03.280+0900 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+00:39:03.305+0900 [main] INFO  com.coolegrams.coolegrams.CoolegramsApplication - Started CoolegramsApplication in 7.139 seconds (JVM running for 8.333)
+00:40:36.230+0900 [main] INFO  com.coolegrams.coolegrams.CoolegramsApplication - Starting CoolegramsApplication using Java 1.8.0_341 on DESKTOP-B0LGGGO with PID 4616 (C:\Users\a\Downloads\coolegrams\build\classes\java\main started by a in C:\Users\a\Downloads\coolegrams)
+00:40:36.241+0900 [main] INFO  com.coolegrams.coolegrams.CoolegramsApplication - No active profile set, falling back to 1 default profile: "default"
+00:40:38.305+0900 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+00:40:38.322+0900 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+00:40:38.323+0900 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+00:40:38.323+0900 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.69]
+00:40:38.686+0900 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+00:40:38.687+0900 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2388 ms
+00:40:38.973+0900 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+00:40:39.097+0900 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+00:40:39.133+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_job_instance' already exists
+00:40:39.136+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_job_execution' already exists
+00:40:39.137+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_job_execution_params' already exists
+00:40:39.138+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_step_execution' already exists
+00:40:39.139+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_step_execution_context' already exists
+00:40:39.139+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_job_execution_context' already exists
+00:40:39.139+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_step_execution_seq' already exists
+00:40:39.140+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_job_execution_seq' already exists
+00:40:39.141+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_job_seq' already exists
+00:40:42.383+0900 [main] INFO  org.springframework.batch.core.repository.support.JobRepositoryFactoryBean - No database type set, using meta data indicating: MYSQL
+00:40:42.414+0900 [main] INFO  org.springframework.batch.core.launch.support.SimpleJobLauncher - No TaskExecutor has been set, defaulting to synchronous executor.
+00:40:42.656+0900 [main] INFO  org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+00:40:42.688+0900 [main] INFO  org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+00:40:42.688+0900 [main] INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.3.2 created.
+00:40:42.690+0900 [main] INFO  org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+00:40:42.691+0900 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+00:40:42.691+0900 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+00:40:42.692+0900 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.3.2
+00:40:42.692+0900 [main] INFO  org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@5c134052
+00:40:42.746+0900 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+00:40:42.784+0900 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+00:40:42.787+0900 [main] INFO  org.springframework.scheduling.quartz.SchedulerFactoryBean - Starting Quartz Scheduler now
+00:40:42.788+0900 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+00:40:42.838+0900 [main] INFO  com.coolegrams.coolegrams.CoolegramsApplication - Started CoolegramsApplication in 7.057 seconds (JVM running for 8.246)
+00:41:05.067+0900 [coulegram_bot Telegram Executor] ERROR org.telegram.telegrambots.updatesreceivers.DefaultBotSession - null
+java.lang.NullPointerException: null
+	at org.telegram.telegrambots.meta.api.methods.send.SendMessage.validate(SendMessage.java:137) ~[telegrambots-meta-6.3.0.jar:?]
+	at org.telegram.telegrambots.bots.DefaultAbsSender.sendMethodRequest(DefaultAbsSender.java:1097) ~[telegrambots-6.3.0.jar:?]
+	at org.telegram.telegrambots.bots.DefaultAbsSender.sendApiMethod(DefaultAbsSender.java:1071) ~[telegrambots-6.3.0.jar:?]
+	at org.telegram.telegrambots.meta.bots.AbsSender.execute(AbsSender.java:64) ~[telegrambots-meta-6.3.0.jar:?]
+	at com.coolegrams.coolegrams.telegrambot.Telegrambot.onUpdateReceived(Telegrambot.java:64) ~[main/:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1259) ~[?:1.8.0_341]
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27) ~[telegrambots-meta-6.3.0.jar:?]
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:317) ~[telegrambots-6.3.0.jar:?]
+00:41:11.721+0900 [coulegram_bot Telegram Executor] ERROR org.telegram.telegrambots.updatesreceivers.DefaultBotSession - null
+java.lang.NullPointerException: null
+	at org.telegram.telegrambots.meta.api.methods.send.SendMessage.validate(SendMessage.java:137) ~[telegrambots-meta-6.3.0.jar:?]
+	at org.telegram.telegrambots.bots.DefaultAbsSender.sendMethodRequest(DefaultAbsSender.java:1097) ~[telegrambots-6.3.0.jar:?]
+	at org.telegram.telegrambots.bots.DefaultAbsSender.sendApiMethod(DefaultAbsSender.java:1071) ~[telegrambots-6.3.0.jar:?]
+	at org.telegram.telegrambots.meta.bots.AbsSender.execute(AbsSender.java:64) ~[telegrambots-meta-6.3.0.jar:?]
+	at com.coolegrams.coolegrams.telegrambot.Telegrambot.onUpdateReceived(Telegrambot.java:78) ~[main/:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1259) ~[?:1.8.0_341]
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27) ~[telegrambots-meta-6.3.0.jar:?]
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:317) ~[telegrambots-6.3.0.jar:?]
+01:19:28.052+0900 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=24m18s650ms696µs800ns).
+01:20:03.106+0900 [coulegram_bot Telegram Connection] INFO  org.telegram.telegrambots.updatesreceivers.DefaultBotSession - Read timed out
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method) ~[?:1.8.0_341]
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116) ~[?:1.8.0_341]
+	at java.net.SocketInputStream.read(SocketInputStream.java:171) ~[?:1.8.0_341]
+	at java.net.SocketInputStream.read(SocketInputStream.java:141) ~[?:1.8.0_341]
+	at sun.security.ssl.SSLSocketInputRecord.read(SSLSocketInputRecord.java:475) ~[?:1.8.0_341]
+	at sun.security.ssl.SSLSocketInputRecord.readHeader(SSLSocketInputRecord.java:469) ~[?:1.8.0_341]
+	at sun.security.ssl.SSLSocketInputRecord.bytesInCompletePacket(SSLSocketInputRecord.java:69) ~[?:1.8.0_341]
+	at sun.security.ssl.SSLSocketImpl.readApplicationRecord(SSLSocketImpl.java:1271) ~[?:1.8.0_341]
+	at sun.security.ssl.SSLSocketImpl.access$300(SSLSocketImpl.java:76) ~[?:1.8.0_341]
+	at sun.security.ssl.SSLSocketImpl$AppInputStream.read(SSLSocketImpl.java:948) ~[?:1.8.0_341]
+	at org.apache.http.impl.io.SessionInputBufferImpl.streamRead(SessionInputBufferImpl.java:137) ~[httpcore-4.4.15.jar:4.4.15]
+	at org.apache.http.impl.io.SessionInputBufferImpl.fillBuffer(SessionInputBufferImpl.java:153) ~[httpcore-4.4.15.jar:4.4.15]
+	at org.apache.http.impl.io.SessionInputBufferImpl.readLine(SessionInputBufferImpl.java:280) ~[httpcore-4.4.15.jar:4.4.15]
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:140) ~[httpclient-4.5.jar:4.5]
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:57) ~[httpclient-4.5.jar:4.5]
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:259) ~[httpcore-4.4.15.jar:4.4.15]
+	at org.apache.http.impl.DefaultBHttpClientConnection.receiveResponseHeader(DefaultBHttpClientConnection.java:163) ~[httpcore-4.4.15.jar:4.4.15]
+	at org.apache.http.impl.conn.CPoolProxy.receiveResponseHeader(CPoolProxy.java:167) ~[httpclient-4.5.jar:4.5]
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:273) ~[httpcore-4.4.15.jar:4.4.15]
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125) ~[httpcore-4.4.15.jar:4.4.15]
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:271) ~[httpclient-4.5.jar:4.5]
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184) ~[httpclient-4.5.jar:4.5]
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88) ~[httpclient-4.5.jar:4.5]
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110) ~[httpclient-4.5.jar:4.5]
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184) ~[httpclient-4.5.jar:4.5]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82) ~[httpclient-4.5.jar:4.5]
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:250) ~[telegrambots-6.3.0.jar:?]
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189) ~[telegrambots-6.3.0.jar:?]
+01:20:06.279+0900 [coulegram_bot Telegram Executor] ERROR org.telegram.telegrambots.updatesreceivers.DefaultBotSession - null
+java.lang.NullPointerException: null
+	at org.telegram.telegrambots.meta.api.methods.send.SendMessage.validate(SendMessage.java:137) ~[telegrambots-meta-6.3.0.jar:?]
+	at org.telegram.telegrambots.bots.DefaultAbsSender.sendMethodRequest(DefaultAbsSender.java:1097) ~[telegrambots-6.3.0.jar:?]
+	at org.telegram.telegrambots.bots.DefaultAbsSender.sendApiMethod(DefaultAbsSender.java:1071) ~[telegrambots-6.3.0.jar:?]
+	at org.telegram.telegrambots.meta.bots.AbsSender.execute(AbsSender.java:64) ~[telegrambots-meta-6.3.0.jar:?]
+	at com.coolegrams.coolegrams.telegrambot.Telegrambot.onUpdateReceived(Telegrambot.java:64) ~[main/:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1259) ~[?:1.8.0_341]
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27) ~[telegrambots-meta-6.3.0.jar:?]
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:317) ~[telegrambots-6.3.0.jar:?]
+01:26:28.179+0900 [main] INFO  com.coolegrams.coolegrams.CoolegramsApplication - Starting CoolegramsApplication using Java 1.8.0_341 on DESKTOP-B0LGGGO with PID 5800 (C:\Users\a\Downloads\coolegrams\build\classes\java\main started by a in C:\Users\a\Downloads\coolegrams)
+01:26:28.201+0900 [main] INFO  com.coolegrams.coolegrams.CoolegramsApplication - No active profile set, falling back to 1 default profile: "default"
+01:26:30.235+0900 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+01:26:30.248+0900 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+01:26:30.249+0900 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+01:26:30.249+0900 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.69]
+01:26:30.505+0900 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+01:26:30.505+0900 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2212 ms
+01:26:30.726+0900 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+01:26:30.817+0900 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+01:26:30.842+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_job_instance' already exists
+01:26:30.844+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_job_execution' already exists
+01:26:30.845+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_job_execution_params' already exists
+01:26:30.845+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_step_execution' already exists
+01:26:30.846+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_step_execution_context' already exists
+01:26:30.846+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_job_execution_context' already exists
+01:26:30.847+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_step_execution_seq' already exists
+01:26:30.849+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_job_execution_seq' already exists
+01:26:30.850+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_job_seq' already exists
+01:26:33.601+0900 [main] INFO  org.springframework.batch.core.repository.support.JobRepositoryFactoryBean - No database type set, using meta data indicating: MYSQL
+01:26:33.621+0900 [main] INFO  org.springframework.batch.core.launch.support.SimpleJobLauncher - No TaskExecutor has been set, defaulting to synchronous executor.
+01:26:33.761+0900 [main] INFO  org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+01:26:33.774+0900 [main] INFO  org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+01:26:33.774+0900 [main] INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.3.2 created.
+01:26:33.775+0900 [main] INFO  org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+01:26:33.776+0900 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+01:26:33.776+0900 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+01:26:33.776+0900 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.3.2
+01:26:33.777+0900 [main] INFO  org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@69de5bed
+01:26:33.814+0900 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+01:26:33.854+0900 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+01:26:33.856+0900 [main] INFO  org.springframework.scheduling.quartz.SchedulerFactoryBean - Starting Quartz Scheduler now
+01:26:33.857+0900 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+01:26:33.877+0900 [main] INFO  com.coolegrams.coolegrams.CoolegramsApplication - Started CoolegramsApplication in 6.258 seconds (JVM running for 7.71)
+01:27:07.959+0900 [coulegram_bot Telegram Executor] ERROR org.telegram.telegrambots.updatesreceivers.DefaultBotSession - null
+java.lang.NullPointerException: null
+	at org.telegram.telegrambots.meta.api.methods.send.SendMessage.validate(SendMessage.java:137) ~[telegrambots-meta-6.3.0.jar:?]
+	at org.telegram.telegrambots.bots.DefaultAbsSender.sendMethodRequest(DefaultAbsSender.java:1097) ~[telegrambots-6.3.0.jar:?]
+	at org.telegram.telegrambots.bots.DefaultAbsSender.sendApiMethod(DefaultAbsSender.java:1071) ~[telegrambots-6.3.0.jar:?]
+	at org.telegram.telegrambots.meta.bots.AbsSender.execute(AbsSender.java:64) ~[telegrambots-meta-6.3.0.jar:?]
+	at com.coolegrams.coolegrams.telegrambot.Telegrambot.onUpdateReceived(Telegrambot.java:83) ~[main/:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1259) ~[?:1.8.0_341]
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27) ~[telegrambots-meta-6.3.0.jar:?]
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:317) ~[telegrambots-6.3.0.jar:?]
+01:58:19.907+0900 [main] INFO  com.coolegrams.coolegrams.CoolegramsApplication - Starting CoolegramsApplication using Java 1.8.0_341 on DESKTOP-B0LGGGO with PID 288 (C:\Users\a\Downloads\coolegrams\build\classes\java\main started by a in C:\Users\a\Downloads\coolegrams)
+01:58:19.926+0900 [main] INFO  com.coolegrams.coolegrams.CoolegramsApplication - No active profile set, falling back to 1 default profile: "default"
+01:58:21.742+0900 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+01:58:21.754+0900 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+01:58:21.755+0900 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+01:58:21.755+0900 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.69]
+01:58:22.015+0900 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+01:58:22.015+0900 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1993 ms
+01:58:22.187+0900 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+01:58:22.259+0900 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+01:58:22.279+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_job_instance' already exists
+01:58:22.281+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_job_execution' already exists
+01:58:22.281+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_job_execution_params' already exists
+01:58:22.282+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_step_execution' already exists
+01:58:22.282+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_step_execution_context' already exists
+01:58:22.283+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_job_execution_context' already exists
+01:58:22.283+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_step_execution_seq' already exists
+01:58:22.284+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_job_execution_seq' already exists
+01:58:22.285+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_job_seq' already exists
+01:58:25.900+0900 [main] INFO  org.springframework.batch.core.repository.support.JobRepositoryFactoryBean - No database type set, using meta data indicating: MYSQL
+01:58:25.918+0900 [main] INFO  org.springframework.batch.core.launch.support.SimpleJobLauncher - No TaskExecutor has been set, defaulting to synchronous executor.
+01:58:26.054+0900 [main] INFO  org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+01:58:26.068+0900 [main] INFO  org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+01:58:26.068+0900 [main] INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.3.2 created.
+01:58:26.069+0900 [main] INFO  org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+01:58:26.070+0900 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+01:58:26.070+0900 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+01:58:26.070+0900 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.3.2
+01:58:26.070+0900 [main] INFO  org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@667dcaad
+01:58:26.107+0900 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+01:58:26.156+0900 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+01:58:26.159+0900 [main] INFO  org.springframework.scheduling.quartz.SchedulerFactoryBean - Starting Quartz Scheduler now
+01:58:26.159+0900 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+01:58:26.173+0900 [main] INFO  com.coolegrams.coolegrams.CoolegramsApplication - Started CoolegramsApplication in 6.723 seconds (JVM running for 8.088)
+02:09:26.530+0900 [main] INFO  com.coolegrams.coolegrams.CoolegramsApplication - Starting CoolegramsApplication using Java 1.8.0_341 on DESKTOP-B0LGGGO with PID 14468 (C:\Users\a\Downloads\coolegrams\build\classes\java\main started by a in C:\Users\a\Downloads\coolegrams)
+02:09:26.544+0900 [main] INFO  com.coolegrams.coolegrams.CoolegramsApplication - No active profile set, falling back to 1 default profile: "default"
+02:09:28.817+0900 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+02:09:28.829+0900 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+02:09:28.830+0900 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+02:09:28.831+0900 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.69]
+02:09:29.077+0900 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+02:09:29.077+0900 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2453 ms
+02:09:29.276+0900 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+02:09:29.377+0900 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+02:09:29.409+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_job_instance' already exists
+02:09:29.411+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_job_execution' already exists
+02:09:29.412+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_job_execution_params' already exists
+02:09:29.413+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_step_execution' already exists
+02:09:29.413+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_step_execution_context' already exists
+02:09:29.414+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_job_execution_context' already exists
+02:09:29.414+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_step_execution_seq' already exists
+02:09:29.415+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_job_execution_seq' already exists
+02:09:29.417+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_job_seq' already exists
+02:09:32.516+0900 [main] INFO  org.springframework.batch.core.repository.support.JobRepositoryFactoryBean - No database type set, using meta data indicating: MYSQL
+02:09:32.550+0900 [main] INFO  org.springframework.batch.core.launch.support.SimpleJobLauncher - No TaskExecutor has been set, defaulting to synchronous executor.
+02:09:32.739+0900 [main] INFO  org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+02:09:32.755+0900 [main] INFO  org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+02:09:32.755+0900 [main] INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.3.2 created.
+02:09:32.757+0900 [main] INFO  org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+02:09:32.758+0900 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+02:09:32.758+0900 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+02:09:32.758+0900 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.3.2
+02:09:32.758+0900 [main] INFO  org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@667dcaad
+02:09:32.801+0900 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+02:09:32.847+0900 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+02:09:32.851+0900 [main] INFO  org.springframework.scheduling.quartz.SchedulerFactoryBean - Starting Quartz Scheduler now
+02:09:32.851+0900 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+02:09:32.867+0900 [main] INFO  com.coolegrams.coolegrams.CoolegramsApplication - Started CoolegramsApplication in 6.915 seconds (JVM running for 8.476)
+02:14:30.022+0900 [main] INFO  com.coolegrams.coolegrams.CoolegramsApplication - Starting CoolegramsApplication using Java 1.8.0_341 on DESKTOP-B0LGGGO with PID 16592 (C:\Users\a\Downloads\coolegrams\build\classes\java\main started by a in C:\Users\a\Downloads\coolegrams)
+02:14:30.039+0900 [main] INFO  com.coolegrams.coolegrams.CoolegramsApplication - No active profile set, falling back to 1 default profile: "default"
+02:14:32.721+0900 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+02:14:32.738+0900 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+02:14:32.739+0900 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+02:14:32.740+0900 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.69]
+02:14:33.115+0900 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+02:14:33.116+0900 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3004 ms
+02:14:33.404+0900 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+02:14:33.533+0900 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+02:14:33.566+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_job_instance' already exists
+02:14:33.569+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_job_execution' already exists
+02:14:33.570+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_job_execution_params' already exists
+02:14:33.571+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_step_execution' already exists
+02:14:33.572+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_step_execution_context' already exists
+02:14:33.573+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_job_execution_context' already exists
+02:14:33.573+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_step_execution_seq' already exists
+02:14:33.575+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_job_execution_seq' already exists
+02:14:33.577+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_job_seq' already exists
+02:14:37.149+0900 [main] INFO  org.springframework.batch.core.repository.support.JobRepositoryFactoryBean - No database type set, using meta data indicating: MYSQL
+02:14:37.201+0900 [main] INFO  org.springframework.batch.core.launch.support.SimpleJobLauncher - No TaskExecutor has been set, defaulting to synchronous executor.
+02:14:37.432+0900 [main] INFO  org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+02:14:37.458+0900 [main] INFO  org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+02:14:37.459+0900 [main] INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.3.2 created.
+02:14:37.460+0900 [main] INFO  org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+02:14:37.462+0900 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+02:14:37.463+0900 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+02:14:37.463+0900 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.3.2
+02:14:37.463+0900 [main] INFO  org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@5c134052
+02:14:37.522+0900 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+02:14:37.589+0900 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+02:14:37.592+0900 [main] INFO  org.springframework.scheduling.quartz.SchedulerFactoryBean - Starting Quartz Scheduler now
+02:14:37.593+0900 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+02:14:37.616+0900 [main] INFO  com.coolegrams.coolegrams.CoolegramsApplication - Started CoolegramsApplication in 8.117 seconds (JVM running for 9.734)
+02:14:44.669+0900 [coulegram_bot Telegram Executor] INFO  com.coolegrams.coolegrams.telegrambot.Telegrambot - depth : 0
+02:14:48.464+0900 [coulegram_bot Telegram Executor] INFO  com.coolegrams.coolegrams.telegrambot.Telegrambot - depth : 0
+02:14:48.464+0900 [coulegram_bot Telegram Executor] INFO  com.coolegrams.coolegrams.telegrambot.Telegrambot - depth : 1
+02:14:57.476+0900 [coulegram_bot Telegram Executor] INFO  com.coolegrams.coolegrams.telegrambot.Telegrambot - depth : 1
+02:14:57.477+0900 [coulegram_bot Telegram Executor] INFO  com.coolegrams.coolegrams.telegrambot.Telegrambot - depth : 2
+02:15:05.738+0900 [coulegram_bot Telegram Executor] INFO  com.coolegrams.coolegrams.telegrambot.Telegrambot - depth : 2
+02:15:33.725+0900 [coulegram_bot Telegram Executor] INFO  com.coolegrams.coolegrams.telegrambot.Telegrambot - depth : 2
+02:15:34.161+0900 [coulegram_bot Telegram Executor] INFO  com.coolegrams.coolegrams.telegrambot.Telegrambot - depth : 2
+02:15:34.652+0900 [coulegram_bot Telegram Executor] INFO  com.coolegrams.coolegrams.telegrambot.Telegrambot - depth : 2
+02:15:35.161+0900 [coulegram_bot Telegram Executor] INFO  com.coolegrams.coolegrams.telegrambot.Telegrambot - depth : 2
+02:15:35.690+0900 [coulegram_bot Telegram Executor] INFO  com.coolegrams.coolegrams.telegrambot.Telegrambot - depth : 2
+21:55:17.102+0900 [main] INFO  com.coolegrams.coolegrams.CoolegramsApplication - Starting CoolegramsApplication using Java 1.8.0_341 on DESKTOP-B0LGGGO with PID 12508 (C:\Users\a\Downloads\coolegrams\build\classes\java\main started by a in C:\Users\a\Downloads\coolegrams)
+21:55:17.117+0900 [main] INFO  com.coolegrams.coolegrams.CoolegramsApplication - No active profile set, falling back to 1 default profile: "default"
+21:55:19.399+0900 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+21:55:19.415+0900 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+21:55:19.416+0900 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+21:55:19.416+0900 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.69]
+21:55:19.756+0900 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+21:55:19.756+0900 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2559 ms
+21:55:19.960+0900 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+21:55:20.076+0900 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+21:55:20.106+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_job_instance' already exists
+21:55:20.108+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_job_execution' already exists
+21:55:20.109+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_job_execution_params' already exists
+21:55:20.109+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_step_execution' already exists
+21:55:20.110+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_step_execution_context' already exists
+21:55:20.111+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_job_execution_context' already exists
+21:55:20.111+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_step_execution_seq' already exists
+21:55:20.116+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_job_execution_seq' already exists
+21:55:20.119+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_job_seq' already exists
+21:55:24.082+0900 [main] INFO  org.springframework.batch.core.repository.support.JobRepositoryFactoryBean - No database type set, using meta data indicating: MYSQL
+21:55:24.126+0900 [main] INFO  org.springframework.batch.core.launch.support.SimpleJobLauncher - No TaskExecutor has been set, defaulting to synchronous executor.
+21:55:24.437+0900 [main] INFO  org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+21:55:24.522+0900 [main] INFO  org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+21:55:24.522+0900 [main] INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.3.2 created.
+21:55:24.524+0900 [main] INFO  org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+21:55:24.525+0900 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+21:55:24.525+0900 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+21:55:24.525+0900 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.3.2
+21:55:24.525+0900 [main] INFO  org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@667dcaad
+21:55:24.570+0900 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+21:55:24.660+0900 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+21:55:24.672+0900 [main] INFO  org.springframework.scheduling.quartz.SchedulerFactoryBean - Starting Quartz Scheduler now
+21:55:24.673+0900 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+21:55:24.701+0900 [main] INFO  com.coolegrams.coolegrams.CoolegramsApplication - Started CoolegramsApplication in 8.229 seconds (JVM running for 9.719)
+23:26:00.891+0900 [main] INFO  com.coolegrams.coolegrams.CoolegramsApplication - Starting CoolegramsApplication using Java 1.8.0_341 on DESKTOP-B0LGGGO with PID 12496 (C:\Users\a\Downloads\coolegrams\build\classes\java\main started by a in C:\Users\a\Downloads\coolegrams)
+23:26:00.903+0900 [main] INFO  com.coolegrams.coolegrams.CoolegramsApplication - No active profile set, falling back to 1 default profile: "default"
+23:26:02.761+0900 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+23:26:02.773+0900 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+23:26:02.773+0900 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+23:26:02.774+0900 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.69]
+23:26:02.984+0900 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+23:26:02.984+0900 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2016 ms
+23:26:03.158+0900 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+23:26:03.237+0900 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+23:26:03.259+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_job_instance' already exists
+23:26:03.261+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_job_execution' already exists
+23:26:03.262+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_job_execution_params' already exists
+23:26:03.263+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_step_execution' already exists
+23:26:03.263+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_step_execution_context' already exists
+23:26:03.264+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_job_execution_context' already exists
+23:26:03.264+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_step_execution_seq' already exists
+23:26:03.267+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_job_execution_seq' already exists
+23:26:03.268+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_job_seq' already exists
+23:26:06.339+0900 [main] INFO  org.springframework.batch.core.repository.support.JobRepositoryFactoryBean - No database type set, using meta data indicating: MYSQL
+23:26:06.360+0900 [main] INFO  org.springframework.batch.core.launch.support.SimpleJobLauncher - No TaskExecutor has been set, defaulting to synchronous executor.
+23:26:06.503+0900 [main] INFO  org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+23:26:06.517+0900 [main] INFO  org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+23:26:06.517+0900 [main] INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.3.2 created.
+23:26:06.518+0900 [main] INFO  org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+23:26:06.519+0900 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+23:26:06.519+0900 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+23:26:06.519+0900 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.3.2
+23:26:06.519+0900 [main] INFO  org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@115dcaea
+23:26:06.556+0900 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+23:26:06.577+0900 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+23:26:06.579+0900 [main] INFO  org.springframework.scheduling.quartz.SchedulerFactoryBean - Starting Quartz Scheduler now
+23:26:06.580+0900 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+23:26:06.598+0900 [main] INFO  com.coolegrams.coolegrams.CoolegramsApplication - Started CoolegramsApplication in 6.224 seconds (JVM running for 7.454)
+23:26:48.274+0900 [coulegram_bot Telegram Executor] ERROR org.telegram.telegrambots.updatesreceivers.DefaultBotSession - null
+java.lang.NullPointerException: null
+	at com.coolegrams.coolegrams.telegrambot.Telegrambot.onUpdateReceived(Telegrambot.java:47) ~[main/:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1259) ~[?:1.8.0_341]
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27) ~[telegrambots-meta-6.3.0.jar:?]
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:317) ~[telegrambots-6.3.0.jar:?]
+23:28:36.483+0900 [main] INFO  com.coolegrams.coolegrams.CoolegramsApplication - Starting CoolegramsApplication using Java 1.8.0_341 on DESKTOP-B0LGGGO with PID 10476 (C:\Users\a\Downloads\coolegrams\build\classes\java\main started by a in C:\Users\a\Downloads\coolegrams)
+23:28:36.496+0900 [main] INFO  com.coolegrams.coolegrams.CoolegramsApplication - No active profile set, falling back to 1 default profile: "default"
+23:28:38.301+0900 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+23:28:38.311+0900 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+23:28:38.312+0900 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+23:28:38.313+0900 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.69]
+23:28:38.518+0900 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+23:28:38.519+0900 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1961 ms
+23:28:38.698+0900 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+23:28:38.769+0900 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+23:28:38.788+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_job_instance' already exists
+23:28:38.790+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_job_execution' already exists
+23:28:38.790+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_job_execution_params' already exists
+23:28:38.791+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_step_execution' already exists
+23:28:38.791+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_step_execution_context' already exists
+23:28:38.792+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_job_execution_context' already exists
+23:28:38.792+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_step_execution_seq' already exists
+23:28:38.793+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_job_execution_seq' already exists
+23:28:38.795+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_job_seq' already exists
+23:28:41.237+0900 [main] INFO  org.springframework.batch.core.repository.support.JobRepositoryFactoryBean - No database type set, using meta data indicating: MYSQL
+23:28:41.257+0900 [main] INFO  org.springframework.batch.core.launch.support.SimpleJobLauncher - No TaskExecutor has been set, defaulting to synchronous executor.
+23:28:41.399+0900 [main] INFO  org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+23:28:41.411+0900 [main] INFO  org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+23:28:41.411+0900 [main] INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.3.2 created.
+23:28:41.412+0900 [main] INFO  org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+23:28:41.413+0900 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+23:28:41.414+0900 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+23:28:41.414+0900 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.3.2
+23:28:41.414+0900 [main] INFO  org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@115dcaea
+23:28:41.447+0900 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+23:28:41.559+0900 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+23:28:41.560+0900 [main] INFO  org.springframework.scheduling.quartz.SchedulerFactoryBean - Starting Quartz Scheduler now
+23:28:41.561+0900 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+23:28:41.574+0900 [main] INFO  com.coolegrams.coolegrams.CoolegramsApplication - Started CoolegramsApplication in 5.539 seconds (JVM running for 6.757)
+23:28:56.525+0900 [coulegram_bot Telegram Executor] ERROR org.telegram.telegrambots.updatesreceivers.DefaultBotSession - null
+java.lang.NullPointerException: null
+	at com.coolegrams.coolegrams.telegrambot.Telegrambot.onUpdateReceived(Telegrambot.java:48) ~[main/:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1259) ~[?:1.8.0_341]
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27) ~[telegrambots-meta-6.3.0.jar:?]
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:317) ~[telegrambots-6.3.0.jar:?]
+23:31:26.550+0900 [coulegram_bot Telegram Connection] INFO  org.telegram.telegrambots.updatesreceivers.DefaultBotSession - Read timed out
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method) ~[?:1.8.0_341]
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116) ~[?:1.8.0_341]
+	at java.net.SocketInputStream.read(SocketInputStream.java:171) ~[?:1.8.0_341]
+	at java.net.SocketInputStream.read(SocketInputStream.java:141) ~[?:1.8.0_341]
+	at sun.security.ssl.SSLSocketInputRecord.read(SSLSocketInputRecord.java:475) ~[?:1.8.0_341]
+	at sun.security.ssl.SSLSocketInputRecord.readHeader(SSLSocketInputRecord.java:469) ~[?:1.8.0_341]
+	at sun.security.ssl.SSLSocketInputRecord.bytesInCompletePacket(SSLSocketInputRecord.java:69) ~[?:1.8.0_341]
+	at sun.security.ssl.SSLSocketImpl.readApplicationRecord(SSLSocketImpl.java:1271) ~[?:1.8.0_341]
+	at sun.security.ssl.SSLSocketImpl.access$300(SSLSocketImpl.java:76) ~[?:1.8.0_341]
+	at sun.security.ssl.SSLSocketImpl$AppInputStream.read(SSLSocketImpl.java:948) ~[?:1.8.0_341]
+	at org.apache.http.impl.io.SessionInputBufferImpl.streamRead(SessionInputBufferImpl.java:137) ~[httpcore-4.4.15.jar:4.4.15]
+	at org.apache.http.impl.io.SessionInputBufferImpl.fillBuffer(SessionInputBufferImpl.java:153) ~[httpcore-4.4.15.jar:4.4.15]
+	at org.apache.http.impl.io.SessionInputBufferImpl.readLine(SessionInputBufferImpl.java:280) ~[httpcore-4.4.15.jar:4.4.15]
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:140) ~[httpclient-4.5.jar:4.5]
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:57) ~[httpclient-4.5.jar:4.5]
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:259) ~[httpcore-4.4.15.jar:4.4.15]
+	at org.apache.http.impl.DefaultBHttpClientConnection.receiveResponseHeader(DefaultBHttpClientConnection.java:163) ~[httpcore-4.4.15.jar:4.4.15]
+	at org.apache.http.impl.conn.CPoolProxy.receiveResponseHeader(CPoolProxy.java:167) ~[httpclient-4.5.jar:4.5]
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:273) ~[httpcore-4.4.15.jar:4.4.15]
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125) ~[httpcore-4.4.15.jar:4.4.15]
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:271) ~[httpclient-4.5.jar:4.5]
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184) ~[httpclient-4.5.jar:4.5]
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88) ~[httpclient-4.5.jar:4.5]
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110) ~[httpclient-4.5.jar:4.5]
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184) ~[httpclient-4.5.jar:4.5]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82) ~[httpclient-4.5.jar:4.5]
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:250) ~[telegrambots-6.3.0.jar:?]
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189) ~[telegrambots-6.3.0.jar:?]
+23:32:53.726+0900 [main] INFO  com.coolegrams.coolegrams.CoolegramsApplication - Starting CoolegramsApplication using Java 1.8.0_341 on DESKTOP-B0LGGGO with PID 17928 (C:\Users\a\Downloads\coolegrams\build\classes\java\main started by a in C:\Users\a\Downloads\coolegrams)
+23:32:53.738+0900 [main] INFO  com.coolegrams.coolegrams.CoolegramsApplication - No active profile set, falling back to 1 default profile: "default"
+23:32:55.833+0900 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+23:32:55.850+0900 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+23:32:55.852+0900 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+23:32:55.852+0900 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.69]
+23:32:56.171+0900 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+23:32:56.172+0900 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2369 ms
+23:32:56.463+0900 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+23:32:56.589+0900 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+23:32:56.622+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_job_instance' already exists
+23:32:56.624+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_job_execution' already exists
+23:32:56.625+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_job_execution_params' already exists
+23:32:56.626+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_step_execution' already exists
+23:32:56.627+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_step_execution_context' already exists
+23:32:56.628+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_job_execution_context' already exists
+23:32:56.628+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_step_execution_seq' already exists
+23:32:56.630+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_job_execution_seq' already exists
+23:32:56.631+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_job_seq' already exists
+23:32:59.828+0900 [main] INFO  org.springframework.batch.core.repository.support.JobRepositoryFactoryBean - No database type set, using meta data indicating: MYSQL
+23:32:59.860+0900 [main] INFO  org.springframework.batch.core.launch.support.SimpleJobLauncher - No TaskExecutor has been set, defaulting to synchronous executor.
+23:33:00.109+0900 [main] INFO  org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+23:33:00.134+0900 [main] INFO  org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+23:33:00.134+0900 [main] INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.3.2 created.
+23:33:00.136+0900 [main] INFO  org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+23:33:00.138+0900 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+23:33:00.138+0900 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+23:33:00.138+0900 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.3.2
+23:33:00.139+0900 [main] INFO  org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@545b5ed0
+23:33:00.198+0900 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+23:33:00.262+0900 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+23:33:00.265+0900 [main] INFO  org.springframework.scheduling.quartz.SchedulerFactoryBean - Starting Quartz Scheduler now
+23:33:00.266+0900 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+23:33:00.290+0900 [main] INFO  com.coolegrams.coolegrams.CoolegramsApplication - Started CoolegramsApplication in 7.019 seconds (JVM running for 8.216)
+23:33:19.216+0900 [coulegram_bot Telegram Executor] ERROR org.telegram.telegrambots.updatesreceivers.DefaultBotSession - null
+java.lang.NullPointerException: null
+	at com.coolegrams.coolegrams.telegrambot.Telegrambot.onUpdateReceived(Telegrambot.java:49) ~[main/:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1259) ~[?:1.8.0_341]
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27) ~[telegrambots-meta-6.3.0.jar:?]
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:317) ~[telegrambots-6.3.0.jar:?]
+23:34:52.589+0900 [main] INFO  com.coolegrams.coolegrams.CoolegramsApplication - Starting CoolegramsApplication using Java 1.8.0_341 on DESKTOP-B0LGGGO with PID 9528 (C:\Users\a\Downloads\coolegrams\build\classes\java\main started by a in C:\Users\a\Downloads\coolegrams)
+23:34:52.601+0900 [main] INFO  com.coolegrams.coolegrams.CoolegramsApplication - No active profile set, falling back to 1 default profile: "default"
+23:34:54.730+0900 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+23:34:54.748+0900 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+23:34:54.749+0900 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+23:34:54.750+0900 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.69]
+23:34:55.064+0900 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+23:34:55.064+0900 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2402 ms
+23:34:55.356+0900 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+23:34:55.478+0900 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+23:34:55.515+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_job_instance' already exists
+23:34:55.518+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_job_execution' already exists
+23:34:55.519+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_job_execution_params' already exists
+23:34:55.520+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_step_execution' already exists
+23:34:55.521+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_step_execution_context' already exists
+23:34:55.521+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_job_execution_context' already exists
+23:34:55.522+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_step_execution_seq' already exists
+23:34:55.523+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_job_execution_seq' already exists
+23:34:55.524+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_job_seq' already exists
+23:34:58.811+0900 [main] INFO  org.springframework.batch.core.repository.support.JobRepositoryFactoryBean - No database type set, using meta data indicating: MYSQL
+23:34:58.844+0900 [main] INFO  org.springframework.batch.core.launch.support.SimpleJobLauncher - No TaskExecutor has been set, defaulting to synchronous executor.
+23:34:59.104+0900 [main] INFO  org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+23:34:59.128+0900 [main] INFO  org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+23:34:59.128+0900 [main] INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.3.2 created.
+23:34:59.130+0900 [main] INFO  org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+23:34:59.131+0900 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+23:34:59.132+0900 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+23:34:59.132+0900 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.3.2
+23:34:59.133+0900 [main] INFO  org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@115dcaea
+23:34:59.190+0900 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+23:34:59.255+0900 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+23:34:59.258+0900 [main] INFO  org.springframework.scheduling.quartz.SchedulerFactoryBean - Starting Quartz Scheduler now
+23:34:59.259+0900 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+23:34:59.281+0900 [main] INFO  com.coolegrams.coolegrams.CoolegramsApplication - Started CoolegramsApplication in 7.13 seconds (JVM running for 8.303)
+23:37:48.732+0900 [main] INFO  com.coolegrams.coolegrams.CoolegramsApplication - Starting CoolegramsApplication using Java 1.8.0_341 on DESKTOP-B0LGGGO with PID 8616 (C:\Users\a\Downloads\coolegrams\build\classes\java\main started by a in C:\Users\a\Downloads\coolegrams)
+23:37:48.744+0900 [main] INFO  com.coolegrams.coolegrams.CoolegramsApplication - No active profile set, falling back to 1 default profile: "default"
+23:37:50.775+0900 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+23:37:50.792+0900 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+23:37:50.793+0900 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+23:37:50.794+0900 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.69]
+23:37:51.156+0900 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+23:37:51.157+0900 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2351 ms
+23:37:51.451+0900 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+23:37:51.563+0900 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+23:37:51.600+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_job_instance' already exists
+23:37:51.602+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_job_execution' already exists
+23:37:51.603+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_job_execution_params' already exists
+23:37:51.604+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_step_execution' already exists
+23:37:51.605+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_step_execution_context' already exists
+23:37:51.605+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_job_execution_context' already exists
+23:37:51.606+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_step_execution_seq' already exists
+23:37:51.607+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_job_execution_seq' already exists
+23:37:51.608+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_job_seq' already exists
+23:37:54.941+0900 [main] INFO  org.springframework.batch.core.repository.support.JobRepositoryFactoryBean - No database type set, using meta data indicating: MYSQL
+23:37:54.975+0900 [main] INFO  org.springframework.batch.core.launch.support.SimpleJobLauncher - No TaskExecutor has been set, defaulting to synchronous executor.
+23:37:55.239+0900 [main] INFO  org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+23:37:55.261+0900 [main] INFO  org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+23:37:55.261+0900 [main] INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.3.2 created.
+23:37:55.263+0900 [main] INFO  org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+23:37:55.265+0900 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+23:37:55.266+0900 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+23:37:55.267+0900 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.3.2
+23:37:55.267+0900 [main] INFO  org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@5974b233
+23:37:55.320+0900 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+23:37:55.383+0900 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+23:37:55.386+0900 [main] INFO  org.springframework.scheduling.quartz.SchedulerFactoryBean - Starting Quartz Scheduler now
+23:37:55.387+0900 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+23:37:55.409+0900 [main] INFO  com.coolegrams.coolegrams.CoolegramsApplication - Started CoolegramsApplication in 7.126 seconds (JVM running for 8.313)
+23:40:59.718+0900 [main] INFO  com.coolegrams.coolegrams.CoolegramsApplication - Starting CoolegramsApplication using Java 1.8.0_341 on DESKTOP-B0LGGGO with PID 17524 (C:\Users\a\Downloads\coolegrams\build\classes\java\main started by a in C:\Users\a\Downloads\coolegrams)
+23:40:59.729+0900 [main] INFO  com.coolegrams.coolegrams.CoolegramsApplication - No active profile set, falling back to 1 default profile: "default"
+23:41:01.557+0900 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+23:41:01.568+0900 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+23:41:01.569+0900 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+23:41:01.569+0900 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.69]
+23:41:01.779+0900 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+23:41:01.779+0900 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1990 ms
+23:41:01.950+0900 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+23:41:02.026+0900 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+23:41:02.045+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_job_instance' already exists
+23:41:02.047+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_job_execution' already exists
+23:41:02.048+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_job_execution_params' already exists
+23:41:02.048+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_step_execution' already exists
+23:41:02.049+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_step_execution_context' already exists
+23:41:02.049+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_job_execution_context' already exists
+23:41:02.049+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_step_execution_seq' already exists
+23:41:02.050+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_job_execution_seq' already exists
+23:41:02.051+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_job_seq' already exists
+23:41:04.551+0900 [main] INFO  org.springframework.batch.core.repository.support.JobRepositoryFactoryBean - No database type set, using meta data indicating: MYSQL
+23:41:04.569+0900 [main] INFO  org.springframework.batch.core.launch.support.SimpleJobLauncher - No TaskExecutor has been set, defaulting to synchronous executor.
+23:41:04.713+0900 [main] INFO  org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+23:41:04.726+0900 [main] INFO  org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+23:41:04.727+0900 [main] INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.3.2 created.
+23:41:04.728+0900 [main] INFO  org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+23:41:04.728+0900 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+23:41:04.729+0900 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+23:41:04.729+0900 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.3.2
+23:41:04.730+0900 [main] INFO  org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@45117dd
+23:41:04.766+0900 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+23:41:04.813+0900 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+23:41:04.815+0900 [main] INFO  org.springframework.scheduling.quartz.SchedulerFactoryBean - Starting Quartz Scheduler now
+23:41:04.815+0900 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+23:41:04.830+0900 [main] INFO  com.coolegrams.coolegrams.CoolegramsApplication - Started CoolegramsApplication in 5.637 seconds (JVM running for 6.828)
+23:41:38.726+0900 [coulegram_bot Telegram Executor] ERROR org.telegram.telegrambots.updatesreceivers.DefaultBotSession - null
+java.lang.NullPointerException: null
+	at org.telegram.telegrambots.meta.api.methods.send.SendMessage.validate(SendMessage.java:137) ~[telegrambots-meta-6.3.0.jar:?]
+	at org.telegram.telegrambots.bots.DefaultAbsSender.sendMethodRequest(DefaultAbsSender.java:1097) ~[telegrambots-6.3.0.jar:?]
+	at org.telegram.telegrambots.bots.DefaultAbsSender.sendApiMethod(DefaultAbsSender.java:1071) ~[telegrambots-6.3.0.jar:?]
+	at org.telegram.telegrambots.meta.bots.AbsSender.execute(AbsSender.java:64) ~[telegrambots-meta-6.3.0.jar:?]
+	at com.coolegrams.coolegrams.telegrambot.Telegrambot.onUpdateReceived(Telegrambot.java:117) ~[main/:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1259) ~[?:1.8.0_341]
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27) ~[telegrambots-meta-6.3.0.jar:?]
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:317) ~[telegrambots-6.3.0.jar:?]
+23:44:08.171+0900 [main] INFO  com.coolegrams.coolegrams.CoolegramsApplication - Starting CoolegramsApplication using Java 1.8.0_341 on DESKTOP-B0LGGGO with PID 14088 (C:\Users\a\Downloads\coolegrams\build\classes\java\main started by a in C:\Users\a\Downloads\coolegrams)
+23:44:08.184+0900 [main] INFO  com.coolegrams.coolegrams.CoolegramsApplication - No active profile set, falling back to 1 default profile: "default"
+23:44:10.248+0900 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+23:44:10.265+0900 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+23:44:10.266+0900 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+23:44:10.267+0900 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.69]
+23:44:10.609+0900 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+23:44:10.609+0900 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2365 ms
+23:44:10.896+0900 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+23:44:11.020+0900 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+23:44:11.075+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_job_instance' already exists
+23:44:11.078+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_job_execution' already exists
+23:44:11.080+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_job_execution_params' already exists
+23:44:11.080+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_step_execution' already exists
+23:44:11.081+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_step_execution_context' already exists
+23:44:11.082+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_job_execution_context' already exists
+23:44:11.082+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_step_execution_seq' already exists
+23:44:11.084+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_job_execution_seq' already exists
+23:44:11.085+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_job_seq' already exists
+23:44:14.333+0900 [main] INFO  org.springframework.batch.core.repository.support.JobRepositoryFactoryBean - No database type set, using meta data indicating: MYSQL
+23:44:14.366+0900 [main] INFO  org.springframework.batch.core.launch.support.SimpleJobLauncher - No TaskExecutor has been set, defaulting to synchronous executor.
+23:44:14.607+0900 [main] INFO  org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+23:44:14.629+0900 [main] INFO  org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+23:44:14.629+0900 [main] INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.3.2 created.
+23:44:14.631+0900 [main] INFO  org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+23:44:14.632+0900 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+23:44:14.632+0900 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+23:44:14.633+0900 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.3.2
+23:44:14.633+0900 [main] INFO  org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@115dcaea
+23:44:14.688+0900 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+23:44:14.751+0900 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+23:44:14.754+0900 [main] INFO  org.springframework.scheduling.quartz.SchedulerFactoryBean - Starting Quartz Scheduler now
+23:44:14.755+0900 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+23:44:14.779+0900 [main] INFO  com.coolegrams.coolegrams.CoolegramsApplication - Started CoolegramsApplication in 7.055 seconds (JVM running for 8.237)
+23:44:48.372+0900 [main] INFO  com.coolegrams.coolegrams.CoolegramsApplication - Starting CoolegramsApplication using Java 1.8.0_341 on DESKTOP-B0LGGGO with PID 4044 (C:\Users\a\Downloads\coolegrams\build\classes\java\main started by a in C:\Users\a\Downloads\coolegrams)
+23:44:48.390+0900 [main] INFO  com.coolegrams.coolegrams.CoolegramsApplication - No active profile set, falling back to 1 default profile: "default"
+23:44:51.261+0900 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+23:44:51.284+0900 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+23:44:51.285+0900 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+23:44:51.286+0900 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.69]
+23:44:51.661+0900 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+23:44:51.662+0900 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3177 ms
+23:44:51.943+0900 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+23:44:52.061+0900 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+23:44:52.096+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_job_instance' already exists
+23:44:52.099+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_job_execution' already exists
+23:44:52.100+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_job_execution_params' already exists
+23:44:52.101+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_step_execution' already exists
+23:44:52.102+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_step_execution_context' already exists
+23:44:52.102+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_job_execution_context' already exists
+23:44:52.104+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_step_execution_seq' already exists
+23:44:52.105+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_job_execution_seq' already exists
+23:44:52.106+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_job_seq' already exists
+23:44:55.398+0900 [main] INFO  org.springframework.batch.core.repository.support.JobRepositoryFactoryBean - No database type set, using meta data indicating: MYSQL
+23:44:55.429+0900 [main] INFO  org.springframework.batch.core.launch.support.SimpleJobLauncher - No TaskExecutor has been set, defaulting to synchronous executor.
+23:44:55.663+0900 [main] INFO  org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+23:44:55.685+0900 [main] INFO  org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+23:44:55.685+0900 [main] INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.3.2 created.
+23:44:55.687+0900 [main] INFO  org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+23:44:55.688+0900 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+23:44:55.689+0900 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+23:44:55.689+0900 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.3.2
+23:44:55.689+0900 [main] INFO  org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@115dcaea
+23:44:55.772+0900 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+23:44:55.805+0900 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+23:44:55.808+0900 [main] INFO  org.springframework.scheduling.quartz.SchedulerFactoryBean - Starting Quartz Scheduler now
+23:44:55.808+0900 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+23:44:55.829+0900 [main] INFO  com.coolegrams.coolegrams.CoolegramsApplication - Started CoolegramsApplication in 8.007 seconds (JVM running for 9.216)
+23:46:05.148+0900 [main] INFO  com.coolegrams.coolegrams.CoolegramsApplication - Starting CoolegramsApplication using Java 1.8.0_341 on DESKTOP-B0LGGGO with PID 4164 (C:\Users\a\Downloads\coolegrams\build\classes\java\main started by a in C:\Users\a\Downloads\coolegrams)
+23:46:05.160+0900 [main] INFO  com.coolegrams.coolegrams.CoolegramsApplication - No active profile set, falling back to 1 default profile: "default"
+23:46:07.262+0900 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+23:46:07.279+0900 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+23:46:07.280+0900 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+23:46:07.281+0900 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.69]
+23:46:07.601+0900 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+23:46:07.602+0900 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2373 ms
+23:46:07.892+0900 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+23:46:08.013+0900 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+23:46:08.049+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_job_instance' already exists
+23:46:08.051+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_job_execution' already exists
+23:46:08.052+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_job_execution_params' already exists
+23:46:08.053+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_step_execution' already exists
+23:46:08.054+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_step_execution_context' already exists
+23:46:08.054+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_job_execution_context' already exists
+23:46:08.055+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_step_execution_seq' already exists
+23:46:08.056+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_job_execution_seq' already exists
+23:46:08.058+0900 [main] WARN  org.mariadb.jdbc.message.server.ErrorPacket - Error: 1050-42S01: Table 'batch_job_seq' already exists
+23:46:12.388+0900 [main] INFO  org.springframework.batch.core.repository.support.JobRepositoryFactoryBean - No database type set, using meta data indicating: MYSQL
+23:46:12.421+0900 [main] INFO  org.springframework.batch.core.launch.support.SimpleJobLauncher - No TaskExecutor has been set, defaulting to synchronous executor.
+23:46:12.656+0900 [main] INFO  org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+23:46:12.677+0900 [main] INFO  org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+23:46:12.677+0900 [main] INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.3.2 created.
+23:46:12.679+0900 [main] INFO  org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+23:46:12.680+0900 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+23:46:12.681+0900 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+23:46:12.681+0900 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.3.2
+23:46:12.681+0900 [main] INFO  org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@545b5ed0
+23:46:12.735+0900 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+23:46:12.798+0900 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+23:46:12.802+0900 [main] INFO  org.springframework.scheduling.quartz.SchedulerFactoryBean - Starting Quartz Scheduler now
+23:46:12.803+0900 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+23:46:12.826+0900 [main] INFO  com.coolegrams.coolegrams.CoolegramsApplication - Started CoolegramsApplication in 8.123 seconds (JVM running for 9.292)

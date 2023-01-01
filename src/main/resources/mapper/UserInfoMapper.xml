@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.coolegrams.coolegrams.mapper.TelegramUserInfoMapper">
+	<insert id="addUserInfo" parameterType = "com.coolegrams.coolegrams.dto.TelegramUserInfoDto">
+		INSERT INTO
+			USER_INFO_HIST
+		(
+			CHAT_ID,
+			SUBSCRIBE_PRODUCTID,
+			SUBSCRIBE_PRODUCTNAME,
+			INPUTTIME_PRICE,
+			GOAL_PRICE,
+			COUPANG_LINK,
+			USE_YN
+		)
+		VALUES
+		(
+			#{chatId},
+			#{subscribeProductId},
+			#{subscribeProductName},
+			#{inputTimePrice},
+			#{goalPrice},
+			#{coupangUrl},
+			'Y'
+		)
+	</insert>
+	
+	<select id = "userAlarmCount" parameterType="String" resultType="int">
+		SELECT	
+			COUNT(*)
+		FROM
+			USER_INFO_HIST
+		WHERE
+			CHAT_ID = #{chatId} AND
+			USE_YN = 'Y'
+	</select>
+	
+	<select id = "getSubscribeList" parameterType="String" resultType="com.coolegrams.coolegrams.dto.TelegramUserInfoDto">
+		SELECT
+			CHAT_ID as chatId,
+			SUBSCRIBE_PRODUCTID as subscribeProductId,
+			SUBSCRIBE_PRODUCTNAME as subscribeProductName,
+			GOAL_PRICE as goalPrice
+		FROM
+			USER_INFO_HIST
+		WHERE
+			USE_YN = 'Y' AND
+			CHAT_ID = #{chatId}
+	</select>
+</mapper>

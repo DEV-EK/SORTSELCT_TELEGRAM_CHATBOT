@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.coolegrams.coolegrams.mapper.ItemRefreshMapper">
+	<insert id = "insertItemInfo" parameterType = "com.coolegrams.coolegrams.dto.RefreshItemInfoDto">
+		INSERT INTO
+			ITEM_REFRESH_INFO
+		(
+			PRODUCT_NAME,
+			PRODUCT_ID,
+			COUPANG_LINK,
+			CURRNT_PRICE
+		)
+		VALUES
+		(
+			#{productName},
+			#{productId},
+			#{coupangLink},
+			#{currentPrice}
+		) ON DUPLICATE KEY UPDATE
+		PRODUCT_NAME= #{productName},
+		CURRNT_PRICE= #{currentPrice}
+	</insert>
+	
+	    <select id="getProductIdbyCurrentPrice" parameterType="String" resultType="int">
+	    SELECT
+    		CURRNT_PRICE
+    	FROM
+    		COOLEGRAMS.ITEM_REFRESH_INFO
+    	WHERE
+    		PRODUCT_ID = #{string}
+    	GROUP BY
+    		PRODUCT_ID
+	    </select>
+	
+	    <select id="getProductIdbyProductName" parameterType="String" resultType="String">
+    	SELECT
+    		PRODUCT_ID
+    	FROM
+    		COOLEGRAMS.ITEM_REFRESH_INFO
+    	WHERE
+    		PRODUCT_NAME = #{productName}
+    	GROUP BY
+    		PRODUCT_ID
+    </select>
+</mapper>
